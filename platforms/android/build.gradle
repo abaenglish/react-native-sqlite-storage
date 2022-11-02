@@ -1,6 +1,7 @@
 buildscript {
     repositories {
         google()
+        mavenCentral()
         jcenter()
     }
 
@@ -59,5 +60,5 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.facebook.react:react-native:+'
+    implementation 'com.facebook.react:react-native:0.67.4'
 }
